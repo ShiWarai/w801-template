@@ -1121,12 +1121,8 @@
         </File>
       </VirtualDirectory>
       <VirtualDirectory Name="factorycmd">
-        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.c">
-          <FileOption/>
-        </File>
-        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.h">
-          <FileOption/>
-        </File>
+        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.c"/>
+        <File Name="../../../../../../../src/app/factorycmd/factory_atcmd.h"/>
       </VirtualDirectory>
     </VirtualDirectory>
     <VirtualDirectory Name="network">
@@ -3389,8 +3385,8 @@
         <InitFile>$(ProjectPath)..\..\..\..\..\..\..\tools\w800\utilities\flashinit</InitFile>
         <Erase>Erase Sectors</Erase>
         <Algorithms Path=""/>
-        <Program>yes</Program>
-        <Verify>yes</Verify>
+        <Program>no</Program>
+        <Verify>no</Verify>
         <ResetAndRun>no</ResetAndRun>
         <ResetType>Soft Reset</ResetType>
         <SoftResetVal/>

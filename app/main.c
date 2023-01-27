@@ -1,16 +1,3 @@
-/***************************************************************************** 
-* 
-* File Name : main.c
-* 
-* Description: main 
-* 
-* Copyright (c) 2014 Winner Micro Electronic Design Co., Ltd. 
-* All rights reserved. 
-* 
-* Author : dave
-* 
-* Date : 2014-6-14
-*****************************************************************************/ 
 #include "wm_include.h"
 
 void UserMain(void)
@@ -21,10 +8,9 @@ void UserMain(void)
 	while(1) {
 		printf("Blink!\n");
 		tls_gpio_write(WM_IO_PB_05, 0);
-		mdelay(500);
+		vTaskDelay(1000);
 		tls_gpio_write(WM_IO_PB_05, 1);
-		mdelay(500);
+		vTaskDelay(500);
 	}
 }
-
 
