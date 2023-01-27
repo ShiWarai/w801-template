@@ -35,7 +35,12 @@
 *.i*86
 *.x86_64
 *.hex
+
+# Images
 *.bin
+*.img
+*.fls
+*.bin.gz
 
 # Debug files
 *.dSYM/

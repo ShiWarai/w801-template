@@ -21,7 +21,7 @@ void UserMain(void)
 	while(1) {
 		printf("Blink!\n");
 		tls_gpio_write(WM_IO_PB_05, 0);
-		mdelay(500);
+		mdelay(1000);
 		tls_gpio_write(WM_IO_PB_05, 1);
 		mdelay(500);
 	}
