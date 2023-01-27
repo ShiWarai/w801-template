@@ -1,0 +1,7 @@
+future==0.18.3
+iso8601==1.1.0
+pip==22.3.1
+pyserial==3.5
+PyYAML==6.0
+setuptools==66.1.1
+wheel==0.38.4
